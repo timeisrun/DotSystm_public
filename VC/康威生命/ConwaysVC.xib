@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ConwaysVC" customModule="DotSystem" customModuleProvider="target">
+            <connections>
+                <outlet property="cameraImage" destination="raw-eu-EGs" id="faS-3o-Kdx"/>
+                <outlet property="cancelImage" destination="ecy-Nw-Xhi" id="JyP-Qi-S7V"/>
+                <outlet property="contentView" destination="ppd-Y8-hvm" id="lFV-Ro-X6g"/>
+                <outlet property="pauseImage" destination="xAb-IS-JMf" id="oBS-55-XIE"/>
+                <outlet property="playImage" destination="OGG-OP-PRB" id="i4w-wf-oYH"/>
+                <outlet property="questionImage" destination="1ee-sd-hM2" id="S4Y-Am-X1W"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ppd-Y8-hvm" userLabel="ContentView">
+                    <rect key="frame" x="1" y="45" width="412" height="816"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="4M3-6J-Aa7">
+                            <rect key="frame" x="5" y="5" width="30" height="65"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="question" translatesAutoresizingMaskIntoConstraints="NO" id="1ee-sd-hM2">
+                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="1ee-sd-hM2" secondAttribute="height" multiplier="1:1" id="uMi-dL-tER"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="camera" translatesAutoresizingMaskIntoConstraints="NO" id="raw-eu-EGs">
+                                    <rect key="frame" x="0.0" y="35" width="30" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="raw-eu-EGs" secondAttribute="height" multiplier="1:1" id="nle-4q-CXf"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="1ee-sd-hM2" firstAttribute="width" secondItem="1ee-sd-hM2" secondAttribute="height" multiplier="1:1" id="8fC-Xm-M1a"/>
+                                <constraint firstItem="1ee-sd-hM2" firstAttribute="width" secondItem="1ee-sd-hM2" secondAttribute="height" multiplier="1:1" id="END-Ik-Bd2"/>
+                                <constraint firstAttribute="width" constant="30" id="kx1-bC-RYg"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Giz-jh-jRp">
+                            <rect key="frame" x="307" y="5" width="100" height="30"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pause" translatesAutoresizingMaskIntoConstraints="NO" id="xAb-IS-JMf">
+                                    <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="xAb-IS-JMf" secondAttribute="height" multiplier="1:1" id="NR0-9q-Loy"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="play" translatesAutoresizingMaskIntoConstraints="NO" id="OGG-OP-PRB">
+                                    <rect key="frame" x="35" y="0.0" width="30" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="OGG-OP-PRB" secondAttribute="height" multiplier="1:1" id="bHM-dR-565"/>
+                                    </constraints>
+                                </imageView>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cancel" translatesAutoresizingMaskIntoConstraints="NO" id="ecy-Nw-Xhi">
+                                    <rect key="frame" x="70" y="0.0" width="30" height="30"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" secondItem="ecy-Nw-Xhi" secondAttribute="height" multiplier="1:1" id="v2M-ti-sga"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="ecy-Nw-Xhi" firstAttribute="width" secondItem="ecy-Nw-Xhi" secondAttribute="height" multiplier="1:1" id="6un-VL-m0e"/>
+                                <constraint firstAttribute="height" constant="30" id="C70-hX-Gcy"/>
+                                <constraint firstItem="OGG-OP-PRB" firstAttribute="width" secondItem="OGG-OP-PRB" secondAttribute="height" multiplier="1:1" id="JrP-vh-rda"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="4M3-6J-Aa7" firstAttribute="leading" secondItem="ppd-Y8-hvm" secondAttribute="leading" constant="5" id="0py-bs-yYB"/>
+                        <constraint firstItem="4M3-6J-Aa7" firstAttribute="top" secondItem="ppd-Y8-hvm" secondAttribute="top" constant="5" id="M53-Pg-Rng"/>
+                        <constraint firstItem="Giz-jh-jRp" firstAttribute="top" secondItem="ppd-Y8-hvm" secondAttribute="top" constant="5" id="YUC-0I-aOq"/>
+                        <constraint firstAttribute="trailing" secondItem="Giz-jh-jRp" secondAttribute="trailing" constant="5" id="bav-te-bdY"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ppd-Y8-hvm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="1" id="4Dg-Jx-YwI"/>
+                <constraint firstItem="ppd-Y8-hvm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="1" id="AAE-mQ-K02"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ppd-Y8-hvm" secondAttribute="bottom" constant="1" id="P1U-pA-heE"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ppd-Y8-hvm" secondAttribute="trailing" constant="1" id="hcv-dO-43C"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="108"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="camera" width="512" height="512"/>
+        <image name="cancel" width="512" height="512"/>
+        <image name="pause" width="512" height="512"/>
+        <image name="play" width="512" height="512"/>
+        <image name="question" width="512" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

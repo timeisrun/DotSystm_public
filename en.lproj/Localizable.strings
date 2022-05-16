@@ -1,0 +1,210 @@
+/* 
+  Localizable.strings
+  DotSystem
+
+  Created by ccc on 2022/1/27.
+  
+*/
+
+"Home.NoneMission" = "None";
+"Home.BlackMission" = "Black %d point";
+
+"Home.VersionSeeMore" = "(See more at AppStore)";
+"Home.VersionIsRelease" = "New version(%d) is release!";
+"Home.VersionRenewNow" = "Update";
+"Home.VersionRenewWait" = "Wait";
+
+"Home.EnergyNotEnough" = "Not enough";
+"Home.WinCondition" = "Win: ";
+"Home.GameStart" = "Start";
+"Home.GameCancel" = "Cancel";
+
+"Home.ADIsntOK" = "Please wait AD...";
+"Home.ADWillGet1Energy" = "Will get 1 energy for 1 AD.";
+"Home.ADOK" = "OK";
+"Home.ADCancel" = "Cancel";
+
+"Home.PleaseChooseMode" = "Please Choose Mode";
+"Home.ChooseConways" = "Conway's Game of Life";
+"Home.ChooseLangtons" = "Langton's ant";
+"Home.ChooseCancel" = "Cancel";
+"Home.ADSuccessWatch" = "Watch AD success!";
+"Home.ADGet1Energy" = "Get energy: 1.";
+"Home.ADLoadFailed" = "AD load failed.";
+
+
+"Game.NoneMission" = "None";
+"Game.BlackMission" = "Black %d point";
+"Game.WinnerAndTarget" = "Win: %@";
+"Game.TapPanelAndCount3" = "Tap view to add black point\n3";
+"Game.TapPanelAndCount2" = "Tap view to add black point\n2";
+"Game.TapPanelAndCount1" = "Tap view to add black point\n1";
+"Game.isWin" = "Victory";
+"Game.isFailed" = "Failed";
+"Game.WinnerMessage" = "%@ get %@ point(win need %d point)";
+
+"Game.GoHomePage" = "Go Home";
+"Game.CancelGame" = "Sure to end the game?";
+"Game.ConfirmCancel" = "Sure";
+"Game.NotCancel" = "Cancel";
+"Game.InfTitle" = "Instructions";
+"Game.InfContent" = "You are black dot, others color are enemy. All dots initial point is 1, they can grow up by catch the point that fewer or equal then itself. Please tap the view to add black point, they will follow their strategy to chase others.\nCould you be the winner?";
+"Game.InfGotIt" = "Got it";
+"Game.Capture" = "Capture";
+"Game.RangeLocked" = "Locked";
+"Game.RangeHide" = "Hide Range";
+"Game.RangeShow" = "Show Range";
+
+
+"Achievement.NoAchievement" = "No Achievement.";
+
+
+"Conways.ClearViewSuccess" = "Clear View Success";
+"Conways.GoHomePage" = "Go Home";
+"Conways.CancelGame" = "Sure to end the game?";
+"Conways.ConfirmCancel" = "Sure";
+"Conways.NotCancel" = "Cancel";
+"Conways.InfTitle" = "Instructions";
+"Conways.InfContent" = "\"Conway's Game of Life\" is a cellular automaton devised by British mathematician John Horton Conway. Following is the rules: 1. The cell have two states, live or dead, and it will interactive with the 8 cells around it every iterate. 2. When the cell live, and there have 2 or 3 live cell beside it, next iterate this cell will keep live. 3. When the cell live, and there have live cell beside it not match with the Rule 2, next iterate this cell will become dead. 4. When the cell dead, and there have 3 live cell beside it, next iterate this cell will become live. According to the rules above, we can observe the process of cell self-propagation.\nWhy don't you tap the view to affect the cell?";
+"Conways.InfGotIt" = "Got it";
+"Conways.Capture" = "Capture";
+
+
+"Langtons.CancelGame" = "Sure to end the game?";
+"Langtons.ConfirmCancel" = "Sure";
+"Langtons.NotCancel" = "Cancel";
+"Langtons.InfTitle" = "Instructions";
+"Langtons.InfContent" = "\"Langton's ant\" is a cellular automaton devised by Chris Langton. Following is the rules: 1. The block have two states, black or white. There will have an ant on one of the block, it faces up, down, left or right. 2. If the ant at white block, turn 90 degree clockwise, flip the color of the square, move forward one block. 3. If the ant at black block, turn 90 degree counter-clockwise, flip the color of the square, move forward one block. According to the rules above, the ant will leave many symmetry and repetitive pattern. \nFinally the \"highway\" pattern will appear after ten thousand iterate.";
+"Langtons.InfGotIt" = "Got it";
+"Langtons.Capture" = "Capture";
+
+
+"Noti.NotiTitle" = "Use the Dot";
+"Noti.AchiTitle" = "Achievement: %@！";
+"Noti.EnergyTitle" = "Full of energy.";
+
+
+"Common.black" = "黑色";
+"Common.gray" = "灰色";
+"Common.red" = "紅色";
+"Common.orange" = "橘色";
+"Common.yellow" = "黃色";
+"Common.green" = "綠色";
+"Common.blue" = "藍色";
+"Common.purple" = "紫色";
+"Common.unknown" = "未知顏色";
+
+
+"Alert.OK" = "OK";
+
+
+"Achi.HomeBlackWin_0" = "Chosen(Unlock range ability)";
+"Achi.HomeBlackWin_1" = "Destiny(Unlock range ability)";
+"Achi.HomeBlackWin_2" = "Destiny";
+"Achi.HomeBlackWin_3" = "Fate";
+"Achi.HomeBlackWin_4" = "Occasional";
+
+"Achi.HomeHaveWinner_0" = "Is up to limit!";
+"Achi.HomeHaveWinner_1" = "So much.";
+"Achi.HomeHaveWinner_2" = "So many.";
+"Achi.HomeHaveWinner_3" = "The more times, The plentiful.";
+"Achi.HomeHaveWinner_4" = "Home page can't control.";
+
+"Achi.GamePlay_0" = "Game Elderly";
+"Achi.GamePlay_1" = "Game Adult";
+"Achi.GamePlay_2" = "Game Teen";
+"Achi.GamePlay_3" = "Game Kid";
+"Achi.GamePlay_4" = "Game Baby";
+
+"Achi.GameWin_0" = "Mars";
+"Achi.GameWin_1" = "Best of War";
+"Achi.GameWin_2" = "Better of War";
+"Achi.GameWin_3" = "Good of War";
+"Achi.GameWin_4" = "Begineer";
+
+"Achi.GameFailed_0" = "You can't do anything.";
+"Achi.GameFailed_1" = "Work hard to lose.";
+"Achi.GameFailed_2" = "Why lose so many times.";
+"Achi.GameFailed_3" = "Repeatedly lose.";
+"Achi.GameFailed_4" = "You lose.";
+
+"Achi.GamePlayingTimes_0" = "Time is money, Money cannot pay for lost time.";
+"Achi.GamePlayingTimes_1" = "The world is like a fleeting show.";
+"Achi.GamePlayingTimes_2" = "In a blink of an eye.";
+"Achi.GamePlayingTimes_3" = "Time and tide wait for no man.";
+"Achi.GamePlayingTimes_4" = "Time flies.";
+
+"Achi.GameBlackWin" = "Black Win";
+"Achi.GameGrayWin" = "Gray Win";
+"Achi.GameRedWin" = "Red Win";
+"Achi.GameOrangeWin" = "Orange Win";
+"Achi.GameYellowWin" = "Yellow Win";
+"Achi.GameGreenWin" = "Green Win";
+"Achi.GameBlueWin" = "Blue Win";
+"Achi.GamePrupleWin" = "Purple Win";
+"Achi.FinishSmallGame" = "Small Game";
+"Achi.FinishMidGame" = "Mid Game";
+"Achi.FinishLargeGame" = "Large Game";
+"Achi.PlayHugeGame" = "Huge Game";
+
+"Achi.EnergyWatchAd_0" = "Thanks you raise me up.";
+"Achi.EnergyWatchAd_1" = "Life is hard.";
+"Achi.EnergyWatchAd_2" = "1 AD I can get about 0.1 NTD.";
+"Achi.EnergyWatchAd_3" = "AD is hard to earn money.";
+"Achi.EnergyWatchAd_4" = "AD Sponsor";
+
+"Achi.EnergyNotEnough" = "Why don't you watch ADs? ><";
+
+"Achi.ConwaysPlayingTimes_0" = "It's so cute, right?";
+"Achi.ConwaysPlayingTimes_1" = "I love the Game of Life.";
+"Achi.ConwaysPlayingTimes_2" = "Careful when you want to clean the view, they maybe will keep more and more.";
+"Achi.ConwaysPlayingTimes_3" = "Conway's have many interesting pattern.";
+"Achi.ConwaysPlayingTimes_4" = "Try to clean the view?";
+
+"Achi.ConwaysClearDots_0" = "Legend Cleaner";
+"Achi.ConwaysClearDots_1" = "Rare Cleaner";
+"Achi.ConwaysClearDots_2" = "Uncommon Cleaner";
+"Achi.ConwaysClearDots_3" = "Special Cleaner";
+"Achi.ConwaysClearDots_4" = "Normal Cleaner";
+
+"Achi.LangtonsPlayingTimes_0" = "Queen Ant";
+"Achi.LangtonsPlayingTimes_1" = "Adult Ant";
+"Achi.LangtonsPlayingTimes_2" = "Worker Ant";
+"Achi.LangtonsPlayingTimes_3" = "Soldier Ant";
+"Achi.LangtonsPlayingTimes_4" = "Egg";
+
+"Achi.LangtonsTenThousand_0" = "ant.ant.ant";
+"Achi.LangtonsTenThousand_1" = "many ant";
+"Achi.LangtonsTenThousand_2" = "a group ant";
+"Achi.LangtonsTenThousand_3" = "a lump ant";
+"Achi.LangtonsTenThousand_4" = "a little ant";
+
+
+"Achi.HomeBlackWin.Describe" = "Home leave black %d times.";
+"Achi.HomeHaveWinner.Describe" = "Home leave one color %d times.";
+"Achi.GamePlay.Describe" = "Game start %d times.";
+"Achi.GameWin.Describe" = "Win %d times.";
+"Achi.GameFailed.Describe" = "Failed %d times.";
+
+"Achi.GamePlayingTimes.Describe" = "Playing %@.";
+"Achi.GameBlackWin.Describe" = "Black win %d times.";
+"Achi.GameGrayWin.Describe" = "Gray win %d times.";
+"Achi.GameRedWin.Describe" = "Red win %d times.";
+"Achi.GameOrangeWin.Describe" = "Orange win %d times.";
+
+"Achi.GameYellowWin.Describe" = "Yellow win %d times.";
+"Achi.GameGreenWin.Describe" = "Green win %d times.";
+"Achi.GameBlueWin.Describe" = "Blue win %d times.";
+"Achi.GamePrupleWin.Describe" = "Purple win %d times.";
+"Achi.FinishSmallGame.Describe" = "Finish <2000 score game %d times.";
+
+"Achi.FinishMidGame.Describe" = "Finish 2000~8000 score game %d times.";
+"Achi.FinishLargeGame.Describe" = "Finish >8000 score game %d times.";
+"Achi.PlayHugeGame.Describe" = "Play infinite game %d times.";
+"Achi.EnergyWatchAd.Describe" = "Watch Ad %d times.";
+"Achi.EnergyNotEnough.Describe" = "Empty energy %d times.";
+
+"Achi.ConwaysPlayingTimes.Describe" = "Playing Conway's %@.";
+"Achi.ConwaysClearDots.Describe" = "Clear Conway's %d times.";
+"Achi.LangtonsPlayingTimes.Describe" = "Playing Langton's %@.";
+"Achi.LangtonsTenThousand.Describe" = "Langton's highway %d times.";

@@ -1,0 +1,213 @@
+/* 
+  Localizable.strings
+  DotSystem
+
+  Created by ccc on 2022/1/27.
+  
+*/
+
+"Home.NoneMission" = "無";
+"Home.BlackMission" = "黑色先%d分";
+
+"Home.VersionSeeMore" = "(至AppStore查看更多)";
+"Home.VersionIsRelease" = "新版本(%d)已發佈！";
+"Home.VersionRenewNow" = "立刻更新";
+"Home.VersionRenewWait" = "先不要";
+
+"Home.EnergyNotEnough" = "能量不足";
+"Home.WinCondition" = "勝利：";
+"Home.GameStart" = "開始";
+"Home.GameCancel" = "取消";
+
+"Home.ADIsntOK" = "廣告還沒準備好><";
+"Home.ADWillGet1Energy" = "觀看廣告將會獲得1能量";
+"Home.ADOK" = "確定";
+"Home.ADCancel" = "取消";
+
+"Home.PleaseChooseMode" = "請選擇模式";
+"Home.ChooseConways" = "康威生命遊戲";
+"Home.ChooseLangtons" = "蘭頓螞蟻";
+"Home.ChooseCancel" = "取消";
+"Home.ADSuccessWatch" = "恭喜成功觀看廣告！";
+"Home.ADGet1Energy" = "獲得能量：1";
+"Home.ADLoadFailed" = "廣告載入失敗";
+
+
+"Game.NoneMission" = "無";
+"Game.BlackMission" = "黑色先%d分";
+"Game.WinnerAndTarget" = "勝利：%@";
+"Game.TapPanelAndCount3" = "請點擊畫面擺放黑色點點\n倒數: 3";
+"Game.TapPanelAndCount2" = "請點擊畫面擺放黑色點點\n倒數: 2";
+"Game.TapPanelAndCount1" = "請點擊畫面擺放黑色點點\n倒數: 1";
+"Game.isWin" = "勝利";
+"Game.isFailed" = "失敗";
+"Game.WinnerMessage" = "%@獲得%@分(勝利：%d分)";
+
+"Game.GoHomePage" = "回首頁";
+"Game.CancelGame" = "確定要結束本局遊戲嗎？";
+"Game.ConfirmCancel" = "確定";
+"Game.NotCancel" = "取消";
+"Game.InfTitle" = "遊戲說明";
+"Game.InfContent" = "玩家為黑色，其他顏色為敵人。所有點點初始為1分，可以吃掉小於等於自己分數的點點長大。請點擊畫面放置黑色點點，他們會依照自己的策略往特定方向進食。\n你能勝利嗎？";
+"Game.InfGotIt" = "了解";
+"Game.Capture" = "已截圖";
+"Game.RangeLocked" = "未解鎖";
+"Game.RangeHide" = "不顯示範圍";
+"Game.RangeShow" = "顯示範圍";
+
+
+"Achievement.NoAchievement" = "尚未達成成就";
+
+
+"Conways.ClearViewSuccess" = "成功清空畫面";
+"Conways.GoHomePage" = "回首頁";
+"Conways.CancelGame" = "確定要結束嗎？";
+"Conways.ConfirmCancel" = "確定";
+"Conways.NotCancel" = "取消";
+"Conways.InfTitle" = "遊戲說明";
+"Conways.InfContent" = "「Conway's Game of Life」是由英國數學家發明的細胞自動機。規則如下：1. 細胞有兩種狀態，生存或者死亡，每次迭代時與周圍8格細胞互動。2. 當細胞為存活，周圍有2或3個細胞，則下次迭代時存活(表示保持原樣)。3. 當細胞為存活，周圍有不符合第二條規則的細胞數，則下次迭代時死亡(模擬生命數量過少或過多)。4. 當細胞為死亡，周圍有3個細胞時，則下次迭代存活(模擬生命繁殖)。依照上述規則運行後，即可觀察細胞自我繁殖的過程。\n何不試試點擊畫面影響細胞？";
+"Conways.InfGotIt" = "了解";
+"Conways.Capture" = "已截圖";
+
+
+"Langtons.CancelGame" = "確定要結束嗎？";
+"Langtons.ConfirmCancel" = "確定";
+"Langtons.NotCancel" = "取消";
+"Langtons.InfTitle" = "遊戲說明";
+"Langtons.InfContent" = "「Langton's ant」是由克里斯托夫·蘭頓發明的細胞自動機。規則如下：1. 平面上有黑格與白格，其中一格上方有一隻螞蟻，它的頭部朝上下左右其中一方。2. 若螞蟻在白格，右轉90度，將該格改為黑格，向前移一步。3. 若螞蟻在黑格，左轉90度，將該格改為白格，向前移一步。依照上述規則運行後，螞蟻留下的路線會出現許多對稱或重複形狀。\n根據傳說，超過萬步迭代會形成高速公路。";
+"Langtons.InfGotIt" = "了解";
+"Langtons.Capture" = "已截圖";
+
+
+"Noti.NotiTitle" = "點點";
+"Noti.AchiTitle" = "達成成就：%@！";
+"Noti.EnergyTitle" = "能量已滿";
+
+
+"Common.black" = "黑色";
+"Common.gray" = "灰色";
+"Common.red" = "紅色";
+"Common.orange" = "橘色";
+"Common.yellow" = "黃色";
+"Common.green" = "綠色";
+"Common.blue" = "藍色";
+"Common.purple" = "紫色";
+"Common.unknown" = "未知顏色";
+
+
+"Alert.OK" = "確定";
+
+
+"Achi.HomeBlackWin_0" = "天選之人(解鎖範圍功能)";
+"Achi.HomeBlackWin_1" = "很多次是命中注定(解鎖範圍功能)";
+"Achi.HomeBlackWin_2" = "很多次是命中注定";
+"Achi.HomeBlackWin_3" = "兩次是緣分";
+"Achi.HomeBlackWin_4" = "一次是偶然";
+
+"Achi.HomeHaveWinner_0" = "首頁增加達到上限啦！";
+"Achi.HomeHaveWinner_1" = "太多顆";
+"Achi.HomeHaveWinner_2" = "好多顆";
+"Achi.HomeHaveWinner_3" = "越多次畫面越豐富";
+"Achi.HomeHaveWinner_4" = "首頁是不可控的";
+
+"Achi.GamePlay_0" = "遊戲王";
+"Achi.GamePlay_1" = "遊戲土";
+"Achi.GamePlay_2" = "遊戲工";
+"Achi.GamePlay_3" = "遊戲丄";
+"Achi.GamePlay_4" = "遊戲＿";
+
+"Achi.GameWin_0" = "攻無不克";
+"Achi.GameWin_1" = "穩操勝算";
+"Achi.GameWin_2" = "捷報頻傳";
+"Achi.GameWin_3" = "料敵制勝";
+"Achi.GameWin_4" = "旗開得勝";
+
+"Achi.GameFailed_0" = "屢敗屢戰";
+"Achi.GameFailed_1" = "百事無成";
+"Achi.GameFailed_2" = "重蹈覆徹";
+"Achi.GameFailed_3" = "折戟沉沙";
+"Achi.GameFailed_4" = "一觸即潰";
+
+"Achi.GamePlayingTimes_0" = "寸金難買寸光陰";
+"Achi.GamePlayingTimes_1" = "光陰似箭";
+"Achi.GamePlayingTimes_2" = "白駒過隙";
+"Achi.GamePlayingTimes_3" = "歲月如梭";
+"Achi.GamePlayingTimes_4" = "時光飛逝";
+
+"Achi.GameBlackWin" = "黑色獲勝";
+"Achi.GameGrayWin" = "灰色獲勝";
+"Achi.GameRedWin" = "紅色獲勝";
+"Achi.GameOrangeWin" = "橘色獲勝";
+"Achi.GameYellowWin" = "黃色獲勝";
+"Achi.GameGreenWin" = "綠色獲勝";
+"Achi.GameBlueWin" = "藍色獲勝";
+"Achi.GamePrupleWin" = "紫色獲勝";
+"Achi.FinishSmallGame" = "小型遊戲";
+"Achi.FinishMidGame" = "中型遊戲";
+"Achi.FinishLargeGame" = "大型遊戲";
+"Achi.PlayHugeGame" = "超大型遊戲";
+
+"Achi.EnergyWatchAd_0" = "嗚嗚謝謝您養我";
+"Achi.EnergyWatchAd_1" = "人森好難";
+"Achi.EnergyWatchAd_2" = "看一次偶獲得0.1台幣吧";
+"Achi.EnergyWatchAd_3" = "廣告好難賺錢";
+"Achi.EnergyWatchAd_4" = "廣告贊助商";
+
+"Achi.EnergyNotEnough" = "為啥不看廣告 ><";
+
+"Achi.ConwaysPlayingTimes_0" = "很可愛對吧^^";
+"Achi.ConwaysPlayingTimes_1" = "我超愛生命遊戲";
+"Achi.ConwaysPlayingTimes_2" = "想清空畫面時按錯會一發不可收拾歐";
+"Achi.ConwaysPlayingTimes_3" = "康威很有對稱性";
+"Achi.ConwaysPlayingTimes_4" = "要不要試試看把畫面清空";
+
+"Achi.ConwaysClearDots_0" = "傳說清除工";
+"Achi.ConwaysClearDots_1" = "罕見清除工";
+"Achi.ConwaysClearDots_2" = "稀有清除工";
+"Achi.ConwaysClearDots_3" = "特殊清除工";
+"Achi.ConwaysClearDots_4" = "普通清除工";
+
+"Achi.LangtonsPlayingTimes_0" = "蟻后";
+"Achi.LangtonsPlayingTimes_1" = "雄蟻";
+"Achi.LangtonsPlayingTimes_2" = "工蟻";
+"Achi.LangtonsPlayingTimes_3" = "兵蟻";
+"Achi.LangtonsPlayingTimes_4" = "卵";
+
+"Achi.LangtonsTenThousand_0" = "密密螞螞";
+"Achi.LangtonsTenThousand_1" = "超多螞蟻";
+"Achi.LangtonsTenThousand_2" = "一堆螞蟻";
+"Achi.LangtonsTenThousand_3" = "一坨螞蟻";
+"Achi.LangtonsTenThousand_4" = "一點螞蟻";
+
+
+"Achi.HomeBlackWin.Describe" = "首頁剩黑色%d次";
+"Achi.HomeHaveWinner.Describe" = "首頁剩單色%d次";
+"Achi.GamePlay.Describe" = "開始遊戲%d次";
+"Achi.GameWin.Describe" = "勝利%d次";
+"Achi.GameFailed.Describe" = "失敗%d次";
+
+"Achi.GamePlayingTimes.Describe" = "執行遊戲%@";
+"Achi.GameBlackWin.Describe" = "黑色勝利%d次";
+"Achi.GameGrayWin.Describe" = "灰色勝利%d次";
+"Achi.GameRedWin.Describe" = "紅色勝利%d次";
+"Achi.GameOrangeWin.Describe" = "橘色勝利%d次";
+
+"Achi.GameYellowWin.Describe" = "黃色勝利%d次";
+"Achi.GameGreenWin.Describe" = "綠色勝利%d次";
+"Achi.GameBlueWin.Describe" = "藍色勝利%d次";
+"Achi.GamePrupleWin.Describe" = "紫色勝利%d次";
+"Achi.FinishSmallGame.Describe" = "完成<2000分的局%d次";
+
+"Achi.FinishMidGame.Describe" = "完成2000~8000分的局%d次";
+"Achi.FinishLargeGame.Describe" = "完成>8000分的局%d次";
+"Achi.PlayHugeGame.Describe" = "執行無限局%d次";
+"Achi.EnergyWatchAd.Describe" = "觀看廣告%d次";
+"Achi.EnergyNotEnough.Describe" = "能量不足%d次";
+
+"Achi.ConwaysPlayingTimes.Describe" = "執行康威%@";
+"Achi.ConwaysClearDots.Describe" = "清空康威%d次";
+"Achi.LangtonsPlayingTimes.Describe" = "執行蘭頓%@";
+"Achi.LangtonsTenThousand.Describe" = "蘭頓高速公路%d次";
+
+// NSLocalizedString("Achi.GamePlay_0", comment: "")
+// String.localizedStringWithFormat(NSLocalizedString("Achi.BlackMission.Describe", comment: ""), value)
